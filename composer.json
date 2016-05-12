@@ -1,0 +1,15 @@
+{
+    "require": {
+        "illuminate/container": "^5.2",
+        "illuminate/support": "^5.2",
+        "illuminate/contracts": "^5.2",
+        "illuminate/config": "^5.2"
+    },
+
+    "autoload": {
+      "psr-4": {
+        "App\\": "app/",
+        "IoCTest\\": "lib/"
+      }
+    }
+}
