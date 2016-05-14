@@ -9,5 +9,6 @@ return array(
   'aliases' => array(
       'MS' => \App\Facades\MS::class,
       'AnS' => \App\Facades\AnS::class,
+      'App' =>\App\Facades\App::class
     )
 );

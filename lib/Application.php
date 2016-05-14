@@ -27,6 +27,7 @@ class Application extends Container {
   }
 
   protected function registerBaseBindings() {
+    static::setInstance($this);
     $this['app'] = $this;
     $this->singleton('Illuminate\Container\Container', $this);
     $this->singleton('Illuminate\Contracts\Container\Container', $this);
